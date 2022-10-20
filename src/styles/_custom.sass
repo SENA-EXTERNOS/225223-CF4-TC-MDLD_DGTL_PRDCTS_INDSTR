@@ -2,18 +2,109 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
+    top: -10%
     right: 50%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 18%
+    right: 85%
+  &-3
+    animation: float1 1s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 5%
 
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: scale(1)
+    rotate: 0deg
 
   100%
-    transform: translateY(0px)
+    transform: scale(1.4)
+    rotate: 360deg
+
+// Colores
+
+.cst, p.cst
+  color: $color-sistema-texto !important
+
+.cab
+  color: $color-acento-botones !important
+
+.fcp10
+  background-color: rgba(84,110,122,.10) !important
+
+.fcab15, .cajon.color-acento-botones
+  background-color: rgba(255,149,0,.15) !important
+
+.fcab30
+  background-color: rgba(255,149,0,.3) !important
+
+.fcac15, .tabs-a__content-item .tarjeta--azul.p-4, .cajon.color-acento-contenido
+  background-color: rgba(12,164,202,.15) !important
+
+.bloque-texto-a.color-secundario
+  background-color: #e8e8e8 !important
+
+.tarjeta--gris.acordion__activo
+  background-color: #e8e8e8
+  .acordion__accion__btn--a
+    background-color: $color-acento-contenido
+    color: white
+
+.tabs-a__tab
+  background-color: #e8e8e8
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
+
+.fcac35,.bloque-texto-g.color-acento-contenido
+  background-color: rgba(12,164,202,.35)
+
+.bloque-texto-a.color-acento-contenido
+  background-color: #e8e8e8
+  &::before
+    background-color: rgba(12,164,202,.3) !important
+
+.bloque-texto-a.color-primario
+  &::before
+    background-color: #A2B1B8
+
+.fgris1
+  background-color: #EDF0F1
+
+.fgris2
+  background-color: #DEE5E8
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones !important
+  border-color: $color-acento-botones !important
+
+.img-infografica-b__modal
+  background-color: transparent !important
+
+//Varios
+
+.h420
+  height: 420px
+
+.img-infografica-b__modal__btn-cerrar
+  right: 2rem
+  top: 2rem
+  cursor: pointer
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0.5rem
+  transition: .25s
+  &:hover
+    transform: scale(1.2)
+    i
+      color: $color-sistema-texto !important
+
+.bloque-texto-a.color-secundario.inv
+  &::before
+    left: 0
+    right: 50%

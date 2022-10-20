@@ -2,9 +2,9 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-botones
       .titulo-principal__numero
-        span 1
+        span.cst 1
       h1 Toma de datos con un láser escáner 3D
 
     .row.justify-content-center.mb-5
@@ -22,10 +22,10 @@
       
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+        .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           figure
             img(src='@/assets/curso/temas/t1/f2.svg', alt='diagrama de escáner 3D')
-        .col-lg-8
+        .col-lg-7
           .bloque-texto-a__texto.p-4
             p.mb-0 Hay muchos tipos diferentes de escáneres láser 3D en el mercado, se puede elegir entre escáneres 3D portátiles, de escritorio o profesionales. Hay que tener en cuenta que suelen trabajar en distancias cortas.
 
@@ -119,44 +119,44 @@
 
     p A la hora de utilizar un escáner 3D para la medición o toma de datos, se pueden encontrar varias ventajas, que se resumen en las siguientes:
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .col-md-10.mx-auto.tarjeta.fcp10.p-4.mb-5
       LineaTiempoC.color-acento-botones(text-small)
-        .row.justify-content-around(titulo="Paso 1")
+        .row.align-items-center.justify-content-around(titulo="Paso 1")
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/t1/f9.png', alt='imagen relacionada')
           .col-md-5
             h4 Más sobre el control de calidad
             p Esta tecnología permite capturar 2 millones de puntos por segundo, con una precisión de un milímetro. Esto se ha vuelto fundamental para que los diferentes sectores industriales puedan trabajar con el mayor grado de detalle y precisión, brindando información que no está disponible de otra manera.
-        .row.justify-content-around(titulo="Paso 2")
+        .row.align-items-center.justify-content-around(titulo="Paso 2")
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/t1/f10.png', alt='imagen relacionada')
           .col-md-5
             h4 Optimización en la fase de fabricación
             p El escáner 3D permitirá reducir los costes de explotación y fabricación, gracias a una rápida comparación con un modelo 3D en el que se puede detectar de forma óptima, los fallos en las distintas fases de fabricación y montaje. La calidad del diseño, la escala y la estabilidad del producto se pueden verificar con precisión milimétrica. El escaneo 3D permite verificar la forma completa de un producto fabricado con el diseño CAD original y detectar inmediatamente las desviaciones al mostrar los datos en un mapa de color 3D completo.
-        .row.justify-content-around(titulo="Paso 3")
+        .row.align-items-center.justify-content-around(titulo="Paso 3")
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/t1/f11.png', alt='imagen relacionada')
           .col-md-5
             h4 Rapidez
             p Si se necesita ahorrar y ganar dinero, la lectura de velocidad del escáner 3D asegura una herramienta muy poderosa para ayudar a acelerar el proceso de medición. Por otra parte, los escáneres 3D, también ahorran tiempo cuando es necesario realizar modificaciones en los diseños existentes. Un ejemplo, es cuando se necesita cambiar el grosor de un anillo o de una pieza de un automóvil, los escáneres 3D funcionan más rápido que los cálculos manuales.
-        .row.justify-content-around(titulo="Paso 4")
+        .row.align-items-center.justify-content-around(titulo="Paso 4")
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/t1/f12.png', alt='imagen relacionada')
           .col-md-5
             h4 Versatilidad
             p El uso de un escáner láser 3D como herramienta es ideal para todo tipo de terrenos y situaciones. La movilidad del escáner y su capacidad para escanear incluso en ausencia total de luz, hacen el resto.
-        .row.justify-content-around(titulo="Paso 5")
+        .row.align-items-center.justify-content-around(titulo="Paso 5")
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/t1/f13.png', alt='imagen relacionada')
           .col-md-5
             h4 Comparación de diseños con productos existentes
             p Gracias al uso del escaneo 3D, se garantiza que el producto fabricado cumple exactamente con los requisitos deseados. Esto es así porque este servicio permite comparar el modelo inicial con el modelo fabricado.
-        .row.justify-content-around(titulo="Paso 6")
+        .row.align-items-center.justify-content-around(titulo="Paso 6")
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/t1/f14.png', alt='imagen relacionada')
@@ -165,7 +165,7 @@
             p Esta tecnología permite remanufacturar la pieza creada sin el modelo CAD. Los escáneres 3D ofrecen la opción de utilizar 
               em software 
               | de ingeniería inversa, para crear réplicas exactas de piezas antiguas. De esta manera, los nuevos prototipos se pueden comparar con escaneos de la pieza original.
-        .row.justify-content-around(titulo="Paso 7")
+        .row.align-items-center.justify-content-around(titulo="Paso 7")
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/t1/f15.png', alt='imagen relacionada')
@@ -178,20 +178,19 @@
     #t_1_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
       h2 1.1 Teoría de nubes de puntos, referenciación y comprobación de errores
 
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-5.mb-4.mb-lg-0
-          img(src='@/assets/curso/temas/t1/f16.png', alt='nube de puntos')
-        .col-lg-7
-          .bloque-texto-a__texto.p-4
-            p.mb-0 La 
-              b nube de puntos 
-              em (Point Cloud) 
-              | es una base de datos que contiene los puntos en un 
-              b sistema de coordenadas tridimensional
-              | . Sin embargo, desde la perspectiva del flujo de trabajo típico, la nube de puntos es un 
-              b registro digital de un objeto o lugar
-              | , que contiene una gran cantidad de puntos que detecta una medición láser, con respecto a un punto. 
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'border':'solid 10px #255065','background-image':`url(${require('@/assets/curso/temas/t1/f16.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La 
+          b nube de puntos 
+          em (Point Cloud) 
+          | es una base de datos que contiene los puntos en un 
+          b sistema de coordenadas tridimensional
+          | . Sin embargo, desde la perspectiva del flujo de trabajo típico, la nube de puntos es un 
+          b registro digital de un objeto o lugar
+          | , que contiene una gran cantidad de puntos que detecta una medición láser, con respecto a un punto. 
 
     .col-md-10.mx-auto.mb-5
       .cajon.color-acento-botones.p-4
@@ -253,55 +252,55 @@
     p Una nube de puntos de cualquier objeto se puede utilizar para una variedad de propósitos, (Accasoftware, 2021), que incluyen:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.fcab30.p-4.h420
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/t1/f21.svg' alt='icono relacionado')
         p.text-center Navegue libremente a través de los objetos escaneados.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.fcab30.p-4.h420
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/t1/f22.svg' alt='icono relacionado')
         p.text-center Realice un análisis preciso del modelo.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.fcab30.p-4.h420
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/t1/f23.svg' alt='icono relacionado')
         p.text-center Tome medidas en el modelo, incluso en puntos que no son realmente accesibles.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.fcab30.p-4.h420
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/t1/f24.svg' alt='icono relacionado')
         p.text-center Conocer el estado real de la obra (infraestructura, edificaciones, etc.).
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.fcab30.p-4.h420
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/t1/f25.svg' alt='icono relacionado')
         p.text-center Compara varios modelos.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.fcab30.p-4.h420
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/t1/f26.svg' alt='icono relacionado')
         p.text-center Utilice estos puntos como guía para dibujar y restaurar el terreno.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.fcab30.p-4.h420
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/t1/f27.svg' alt='icono relacionado')
         p.text-center Interprete los datos de color o reflectancia para varios tipos de análisis.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.fcab30.p-4.h420
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/t1/f28.svg' alt='icono relacionado')
         p.text-center Genere un modelo de malla (un modelo de superficie que consta de polígonos cuyos bordes son segmentos de línea que conectan los puntos de la nube y cuyos vértices son puntos en la propia nube).
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.fcab30.p-4.h420
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/t1/f29.svg' alt='icono relacionado')
         p.text-center Desarrollar un modelo BIM "inteligente" que contenga toda la información sobre las características de los objetos detectados.
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.fcab30.p-4.h420
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/t1/f30.svg' alt='icono relacionado')
+            img(src='@/assets/curso/temas/t1/f24.svg' alt='icono relacionado')
         p.text-center Imprima en 3D el modelo detectado.
     
     .row.justify-content-center.mb-5
@@ -317,7 +316,7 @@
       b rayos X
       | , este modo muestra áreas específicamente y hace transparentes las áreas más cercanas y más alejadas del área seleccionada. 
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.p-4.mb-5.fgris1
       SlyderA(tipo='b')
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -339,7 +338,7 @@
               img(src='@/assets/curso/temas/t1/f34.png', alt='imagen relacionada')
 
     .col-lg-10.mx-auto.mb-5
-      .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5
+      .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5
         .row.m-0.align-items-center.justify-content-between
           .col-lg-4.mb-4.mb-lg-0
             figure
@@ -375,27 +374,27 @@
 
     p El proceso para escanear es el siguiente:
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .col-md-10.mx-auto.tarjeta.fcp10.p-4.mb-5
       LineaTiempoC.color-acento-botones(text-small)
-        .row.justiy-content-around.align-items-center(titulo="Paso 1")
+        .row.justify-content-around.align-items-center(titulo="Paso 1")
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/t1/f37.png', alt='imagen relacionada')
           .col-md-6
             p Se proyectan diferentes patrones de luz sobre el objeto.
-        .row.justiy-content-around.align-items-center(titulo="Paso 2")
+        .row.justify-content-around.align-items-center(titulo="Paso 2")
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/t1/f38.png', alt='imagen relacionada')
           .col-md-6
             p El escáner registra cómo y dónde se tuercen estos patrones de luz en el objeto.
-        .row.justiy-content-around.align-items-center(titulo="Paso 3")
+        .row.justify-content-around.align-items-center(titulo="Paso 3")
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/t1/f39.png', alt='imagen relacionada')
           .col-md-6
             p Se calcula la distancia y la ubicación de miles de puntos de datos en función de dónde incide la luz, usando trigonometría simple.
-        .row.justiy-content-around.align-items-center(titulo="Paso 4")
+        .row.justify-content-around.align-items-center(titulo="Paso 4")
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/t1/f40.png', alt='imagen relacionada')
