@@ -3,13 +3,26 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Modelado digital de productos industriales
+    
+    p.mb-5 
+      b Síntesis: 
+      | Teoría general de sistemas láser escáner 3D
+
+    p
+      b Introducción: 
+      | Se recomienda revisar la síntesis de los temas estudiados en este componente, en el mapa que se presenta a continuación:
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img.mb-4(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          .tarjeta--gris.p-2
+            p.mb-0
+              b Figura 1. 
+              br
+              em Teoría general de sistemas láser escáner 3D
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

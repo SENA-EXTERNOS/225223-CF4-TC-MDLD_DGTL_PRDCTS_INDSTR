@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica
+          h2 Teoría general de sistemas láser escáner 3D
         p.mb-4: b Con la siguiente actividad se podrán validar algunos de los conocimientos aprendidos en este componente.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

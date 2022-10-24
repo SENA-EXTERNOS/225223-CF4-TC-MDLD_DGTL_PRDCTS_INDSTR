@@ -130,7 +130,7 @@ export default {
     {
       tema: 'Modelado 3D',
       referencia:
-        'ArtisticRender. (s.f.). <em>10 Different types of 3D modeling techniques.</em> Artisticrender.com. Recuperado 3 de septiembre de 2022 de: https://artisticrender.com/10-different-types-of-3d-modeling-techniques/',
+        'ArtisticRender. (s.f.). <em>10 Different types of 3D modeling techniques.</em> Artisticrender.com. Recuperado 3 de septiembre de 2022.',
       tipo: 'Articulo',
       link: 'https://artisticrender.com/about/',
     },
@@ -138,7 +138,7 @@ export default {
     {
       tema: 'CAD y dibujo paramétrico',
       referencia:
-        'Dasault Systems. (s.f.). <em>Introducing solidworks</em>. Solidworks. Recuperado 3 de septiembre de 2022 de: https://files.solidworks.com/pdf/introsw.pdf',
+        'Dasault Systems. (s.f.). <em>Introducing solidworks</em>. Solidworks. Recuperado 3 de septiembre de 2022.',
       tipo: 'Manual',
       link: 'https://files.solidworks.com/pdf/introsw.pdf',
     },
@@ -146,7 +146,7 @@ export default {
     {
       tema: 'Escaneo 3D',
       referencia:
-        'Engineering & Manufacturing Services. (s.f.). <em>An Introduction to 3D Scanning E-Book</em>. Engineering & Manufacturing Services. Recuperado 2 de septiembre de 2022 de: https://www.ems-usa.com/tech-papers/An_Introduction_to_3D_Scanning_E-Book.pdf',
+        'Engineering & Manufacturing Services. (s.f.). <em>An Introduction to 3D Scanning E-Book</em>. Engineering & Manufacturing Services. Recuperado 2 de septiembre de 2022.',
       tipo: 'Articulo',
       link:
         'https://www.ems-usa.com/tech-papers/An_Introduction_to_3D_Scanning_E-Book.pdf',
@@ -252,6 +252,17 @@ export default {
         'Tresde. (2019, 5 diciembre). <em>Escaneo de luz estructurada: Luz Blanca vs Luz Azul</em>. Tresde. Recuperado 13 de septiembre de 2022 de:',
       link:
         'https://tresde.pe/escaneo-de-luz-estructurada-luz-blanca-vs-luz-azul/',
+    },
+    {
+      referencia:
+        'V., C. (2019, 8 agosto). <em>Laser Scanner vs Structured Light Scanner: which should you choose?</em> 3Dnatives.',
+      link:
+        'https://www.3dnatives.com/en/laser-3d-scanner-vs-structured-light-3d-scanner-080820194/#!',
+    },
+    {
+      referencia:
+        'Vector cero metrología. (2022, April 26). <em>7 ventajas de la medición con Escáner 3D</em> | BLOG Vector 0 Metrología. vector cero metrología. Recuperado 13 de septiembre de 2022 de:',
+      link: 'https://vector0metrologia.com/7-ventajas-medicion-escaner-3d/',
     },
   ],
   creditos: {
