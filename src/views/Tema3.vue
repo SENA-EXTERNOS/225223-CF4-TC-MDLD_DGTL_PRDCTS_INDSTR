@@ -44,7 +44,6 @@
             figure
               img(src='@/assets/curso/temas/t3/f4.png', alt='icono relacionado')
           .col-lg-10.col-md-9
-            p: em Box modelling
             p.cst El modelado 
               em Box 
               | o cajas se usa para la creación de formas 3D a partir de cajas o cubos, a los que se le realizan extrusiones o agujeros para dar forma a los objetos deseados. La característica principal de este enfoque es comenzar a modelar a partir de una figura original, generalmente a través de una caja, de ahí el nombre, aunque a veces también se usan el resto. Se puede considerar como una técnica de esculpido de polígonos, ya que aplicará transformaciones, modificadores y operaciones a la malla base para formar superficies complejas. Los objetos 3D crecen de cierta manera. Luego pueden aplicarse diferentes tipos de modificadores a la forma 3D, para agregar más detalles a la malla. Los más comunes son:
@@ -72,7 +71,6 @@
             figure
               img(src='@/assets/curso/temas/t3/f5.png', alt='icono relacionado')
           .col-lg-10.col-md-9
-            p: em Poly by Poly
             p.cst Es un modelo versátil en el modelado 3D. Consiste en unir cuatro vértices con sus cuatro aristas, que forman un polígono. Así se crea un 
               em Loop
               | , que es la unión de muchos polígonos que se ubican en el plano de tres dimensiones, donde se diseña el modelo 3D, cada polígono se puede manipular para dar forma al modelo deseado. El término significa 
