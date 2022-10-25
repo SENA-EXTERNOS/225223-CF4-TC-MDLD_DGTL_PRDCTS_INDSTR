@@ -11,13 +11,13 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Teoría general de sistemas láser escáner 3D
-        p.mb-4: b Con la siguiente actividad se podrán validar algunos de los conocimientos aprendidos en este componente.
+        p.mb-4 Con la siguiente actividad se podrán validar algunos de los conocimientos aprendidos en este componente.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Verdadero y falso
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
