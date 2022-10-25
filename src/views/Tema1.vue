@@ -75,7 +75,7 @@
                   b Flexibilidad: 
                   | no requiere mayor instalacion ni preparacion para iniciar el proceso, al ser portable no hay mayores restricciones en tamaño del objeto a escanear.
           div(titulo="Simplificación")
-            p Simplificación en la captura de datos en tiempo real
+            p Simplificación en la captura de datos en tiempo real.
 
     .col-md-9.mx-auto.mb-5
       .cajon.color-acento-botones.p-4
