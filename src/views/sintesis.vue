@@ -3,26 +3,17 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 Modelado digital de productos industriales
-    
-    p.mb-5 
-      b Síntesis: 
-      | Teoría general de sistemas láser escáner 3D
-
-    p
-      b Introducción: 
-      | Se recomienda revisar la síntesis de los temas estudiados en este componente, en el mapa que se presenta a continuación:
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      p.mb-0
+        b Figura 1. 
+        br
+        em Teoría general de sistemas láser escáner 3D
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
           img.mb-4(src="@/assets/curso/temas/sintesis.svg", alt="alt")
           .tarjeta--gris.p-2
-            p.mb-0
-              b Figura 1. 
-              br
-              em Teoría general de sistemas láser escáner 3D
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
