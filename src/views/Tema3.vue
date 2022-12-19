@@ -11,7 +11,9 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-7.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
-            p.cst.mb-0 Cuando se desea crear un objeto o figura 3D, es importante hacer un análisis amplio de la pieza a diseñar, ya que existen muchas técnicas que son de gran utilidad y ayudan a disminuir los tiempos de diseño, siempre y cuando, se elija la técnica y la herramienta software apropiada para el trabajo.
+            p.cst.mb-0 Cuando se desea crear un objeto o figura 3D, es importante hacer un análisis amplio de la pieza a diseñar, ya que existen muchas técnicas que son de gran utilidad y ayudan a disminuir los tiempos de diseño, siempre y cuando, se elija la técnica y la herramienta 
+              em software 
+              | apropiada para el trabajo.
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/t3/f1.png', alt='Personas trabajando en computadores')
