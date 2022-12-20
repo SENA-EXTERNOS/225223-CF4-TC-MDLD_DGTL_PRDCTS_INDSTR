@@ -11,8 +11,8 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Teoría general de sistemas láser escáner 3D
-        p "Apreciado aprendiz, el objetivo de esta actividad es verificar la apropiación de los temas relacionados con la teoría de sistemas láser escáner 3D y su correcta conceptualización.
-        p Con la intención de identificar conceptos abordados durante la experiencia de aprendizaje responda si es verdadero o falso el enunciado, de esta forma puede repasar los temas relacionados a las características del escaneo 3D."
+        p Apreciado aprendiz, el objetivo de esta actividad es verificar la apropiación de los temas relacionados con la teoría de sistemas láser escáner 3D y su correcta conceptualización.
+        p Con la intención de identificar conceptos abordados durante la experiencia de aprendizaje responda si es verdadero o falso el enunciado, de esta forma puede repasar los temas relacionados a las características del escaneo 3D.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
