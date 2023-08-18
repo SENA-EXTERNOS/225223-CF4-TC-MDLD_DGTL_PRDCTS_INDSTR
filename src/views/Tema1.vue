@@ -73,7 +73,7 @@
                 i.fas.fa-check
                 p.mb-0 
                   b Flexibilidad: 
-                  | no requiere mayor instalacion ni preparacion para iniciar el proceso, al ser portable no hay mayores restricciones en tamaño del objeto a escanear.
+                  | no requiere mayor instalación ni preparación para iniciar el proceso, al ser portable no hay mayores restricciones en tamaño del objeto a escanear.
           div(titulo="Simplificación")
             p Simplificación en la captura de datos en tiempo real.
 
@@ -237,7 +237,7 @@
 
     h3 
       i.fas.fa-circle.cab.me-2
-      | ¿Como se obtiene la nube de puntos?
+      | ¿Cómo se obtiene la nube de puntos?
 
     .row.justify-content-center.mb-5
       .col-lg-7

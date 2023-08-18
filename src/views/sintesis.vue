@@ -2,6 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    p.mb-5(data-aos='fade-right')  Se recomienda revisar la síntesis de los temas estudiados en este componente, en el mapa que se presenta a continuación:
 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       p.mb-0

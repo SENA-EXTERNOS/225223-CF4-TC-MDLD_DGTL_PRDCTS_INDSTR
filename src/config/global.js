@@ -132,7 +132,8 @@ export default {
       referencia:
         'ArtisticRender. (s.f.). <em>10 Different types of 3D modeling techniques.</em> Artisticrender.com. Recuperado 3 de septiembre de 2022.',
       tipo: 'Articulo',
-      link: 'https://artisticrender.com/about/',
+      link:
+        'https://artisticrender.com/10-different-types-of-3d-modeling-techniques/',
     },
 
     {
@@ -249,9 +250,9 @@ export default {
     },
     {
       referencia:
-        'Tresde. (2019, 5 diciembre). <em>Escaneo de luz estructurada: Luz Blanca vs Luz Azul</em>. Tresde. Recuperado 13 de septiembre de 2022 de:',
+        'SARIKI Metrología.(2019, 15 de febrero). Los beneficios de la luz azul frente a la luz blanca al escanear en 3D.',
       link:
-        'https://tresde.pe/escaneo-de-luz-estructurada-luz-blanca-vs-luz-azul/',
+        'https://www.sariki.es/los-beneficios-de-la-luz-azul-frente-a-la-luz-blanca-al-escanear-en-3d/',
     },
     {
       referencia:
