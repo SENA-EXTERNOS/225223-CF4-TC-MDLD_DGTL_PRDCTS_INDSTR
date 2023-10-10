@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Teoría general de sistemas láser escáner 3D',
     descripcionCurso:
-      'El proceso de escaneo 3D ha cobrado importancia debido al rápido desarrollo tecnológico de los últimos años. Gracias a esto, han tenido más pluralidad las industrias donde tiene utilidad la digitalización de objetos 3D. Además, dicho proceso ha disminuido el precio, aumentado la calidad y la precisión, lo que le permite estar al alcance en cualquier institución para el I+D+I, empresas e incluso hogares. Algunas de los sectores más importantes son aviación, salud, mantenimiento, realidad virtual, arquitectura, entre otros.',
+      'El proceso de escaneo 3D ha cobrado importancia debido al rápido desarrollo tecnológico de los últimos años. Gracias a esto, han tenido más pluralidad las industrias donde tiene utilidad la digitalización de objetos 3D. Además, dicho proceso ha disminuido el precio, aumentado la calidad y la precisión, lo que le permite estar al alcance en cualquier institución para el I+D+I, empresas e incluso hogares. Algunos de los sectores más importantes son aviación, salud, mantenimiento, realidad virtual, arquitectura, entre otros.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-img.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/banner-bg.svg'),
     imagenesDecorativasBanner: [
@@ -131,7 +131,7 @@ export default {
       tema: 'Modelado 3D',
       referencia:
         'ArtisticRender. (s.f.). <em>10 Different types of 3D modeling techniques.</em> Artisticrender.com. Recuperado 3 de septiembre de 2022.',
-      tipo: 'Articulo',
+      tipo: 'Artículo ',
       link:
         'https://artisticrender.com/10-different-types-of-3d-modeling-techniques/',
     },
@@ -148,7 +148,7 @@ export default {
       tema: 'Escaneo 3D',
       referencia:
         'Engineering & Manufacturing Services. (s.f.). <em>An Introduction to 3D Scanning E-Book</em>. Engineering & Manufacturing Services. Recuperado 2 de septiembre de 2022.',
-      tipo: 'Articulo',
+      tipo: 'Artículo ',
       link:
         'https://www.ems-usa.com/tech-papers/An_Introduction_to_3D_Scanning_E-Book.pdf',
     },
@@ -246,7 +246,6 @@ export default {
     {
       referencia:
         'Les.wiki. (s.f.). <em>Diseño paramétrico (Parametric design)</em>. Les.wiki. Recuperado 2 de septiembre de 2022 de:',
-      link: 'https://les.wiki/detial/Parametric_design',
     },
     {
       referencia:
