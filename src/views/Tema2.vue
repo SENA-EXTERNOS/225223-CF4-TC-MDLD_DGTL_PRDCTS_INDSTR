@@ -11,17 +11,18 @@
 
     .col-lg-10.mx-auto
       h3.text-center.mb-4 Características del diseño paramétrico
-      ImagenInfograficaB.color-acento-botones.mb-5
+      ImagenInfografica.color-acento-botones.mb-5
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/t2/f1.svg', alt='imagen relacionada')
 
+
         .tarjeta.fgris2(x="18.8%" y="90%" numero="1")
           .row.justify-content-center.mb-5.p-5
-            .col-lg-2.col-md-3
+            .col-lg-2
               figure
                 img(src='@/assets/curso/temas/t2/f2.svg', alt='icono relacionado')
-            .col-lg-10.col-md-9
+            .col-lg-10
               p.cst El 
                 b diseño paramétrico 
                 | es un método de diseño en el cual, las características de un objeto se establecen para que sean cambiantes de acuerdo con los procesos algorítmicos, a diferencia del proceso de diseño directo. En este método, 
@@ -62,4 +63,9 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+
+.img-infografica__card
+
+    width: auto
+</style>

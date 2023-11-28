@@ -23,7 +23,7 @@
 
     h4 Técnicas de modelación tridimensional
 
-    ImagenInfograficaB.color-acento-botones.mb-5
+    ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/t3/f2.svg', alt='imagen relacionada')
